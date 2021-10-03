@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "362027273150",
+    "project_id": "mireacafe-7dac8",
+    "storage_bucket": "mireacafe-7dac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362027273150:android:8073557c776ba37f04c7ef",
+        "android_client_info": {
+          "package_name": "com.example.mireacafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362027273150-voeavcmggaeo9uofpfctp32f8squ3up0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mireacafe",
+            "certificate_hash": "c678b9aa67b3a4c92b6791666628f0411dbea970"
+          }
+        },
+        {
+          "client_id": "362027273150-psjav9dnrd8d9520gpecht3g9essbs4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8zrbXIYVNKB3c-Hm6c7uPcvB6LNuA6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362027273150-psjav9dnrd8d9520gpecht3g9essbs4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

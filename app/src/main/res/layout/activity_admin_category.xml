@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите категорию"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fast_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Быстрое питание"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/slogan"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        />
+
+    <TextView
+        android:id="@+id/first_mils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fast_food"
+        android:layout_marginTop="15dp"
+        android:text="Первые блюда"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/second_mils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_mils"
+        android:layout_marginTop="15dp"
+        android:text="Вторые блюда"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/sweets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_mils"
+        android:layout_marginTop="15dp"
+        android:text="Десерты"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/drinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sweets"
+        android:layout_marginTop="15dp"
+        android:text="Напитки"
+        android:textSize="35dp" />
+
+
+</RelativeLayout>
